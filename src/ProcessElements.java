@@ -15,7 +15,8 @@ public class ProcessElements {
         loadElementsFromFile(fileAB, processAUB);
 
         // Building sets A and B
-        SetBuilder();
+        SetA();
+        SetB();
     }
 
     private void loadElementsFromFile(String filename, Set<Element> set) throws IOException {
@@ -37,10 +38,12 @@ public class ProcessElements {
         }
     }
 
-    private void SetBuilder() {
+    public class void SetA() {
         SetA.addAll(processAOnly);
         SetA.removeAll(processAUB);
+    }
 
+    public class void SetB() {
         SetB.addAll(processBOnly);
         SetB.removeAll(processAUB);
     }

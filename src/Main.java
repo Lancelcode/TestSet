@@ -9,9 +9,9 @@ public class Main {
 
             // Initialize the ProcessElements class with file paths
             ProcessElements elementsReader = new ProcessElements(
-                    "C:\\Users\\Djiby\\IdeaProjects\\Assessment\\src\\ProcessAonly.txt",
-                    "C:\\Users\\Djiby\\IdeaProjects\\Assessment\\src\\ProcessBonly.txt",
-                    "C:\\Users\\Djiby\\IdeaProjects\\Assessment\\src\\ProcessAUB.txt"
+                    "/Users/djiby/IdeaProjects/TestSet/src/ProcessAonly.txt",
+                    "/Users/djiby/IdeaProjects/TestSet/src/ProcessBonly.txt",
+                    "/Users/djiby/IdeaProjects/TestSet/src/ProcessAUB.txt"
             );
 
             // Display sorted sets by name for Process A
